@@ -1,0 +1,21 @@
+# Java class files
+*.class
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Build directories
+out/
+target/
+build/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode (if you use it)
+.vscode/
