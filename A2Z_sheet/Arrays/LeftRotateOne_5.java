@@ -1,6 +1,6 @@
 //Left Rotate the Array by One
 
-public class LeftRotateOne {
+public class LeftRotateOne_5 {
     public static void main(String[] args) {
         int n = 5;
         int[] nums = {1,2,3,4,5};
@@ -20,11 +20,11 @@ public class LeftRotateOne {
         for (int i = 0; i < n; i++) {
             System.out.print(temp[i] + " ");
         }
-        }
+    }
 
     //Optimal : using temp variable
     static void solve(int[] nums, int n){
-    int temp = nums[0];  //storing the 1st element in a temporary variable
+        int temp = nums[0];  //storing the 1st element in a temporary variable
 
         //shifting the elements to the left
         for (int i = 0; i < n -1; i++) {

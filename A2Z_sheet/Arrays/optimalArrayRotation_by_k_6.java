@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class Optimal_ArrayRotation_By_K {
+public class optimalArrayRotation_by_k_6{
     public static void main(String[] args) {
         int[] leftArr = { 10, 20, 30, 40, 50 };
         int[] rightArr = { 10, 20, 30, 40, 50 };
@@ -48,3 +48,4 @@ public class Optimal_ArrayRotation_By_K {
         }
     }
 }
+

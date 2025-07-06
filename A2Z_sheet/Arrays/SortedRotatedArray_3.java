@@ -1,6 +1,6 @@
 //1752. Check if Array Is Sorted
 
-public class SortedRotatedArray {
+public class SortedRotatedArray_3 {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
         check(nums);

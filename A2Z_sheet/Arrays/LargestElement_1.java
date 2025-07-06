@@ -1,6 +1,6 @@
 //Find the Largest element in an array
 
-public class LargestElement {
+public class LargestElement_1 {
     public static void main(String[] args) {
         int[] nums = {3, 3, 6, 1};
         System.out.println(largestElement(nums));

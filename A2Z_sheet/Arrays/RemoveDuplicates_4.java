@@ -1,8 +1,7 @@
 //Remove Duplicates in-place from Sorted Array
-
 import java.util.HashSet;
 
-public class RemoveDuplicates {
+public class RemoveDuplicates_4 {
     public static void main(String[] args) {
         int arr[] = {1, 1, 2, 2, 2, 3, 3};
         // int k = removeDuplicates(arr);
