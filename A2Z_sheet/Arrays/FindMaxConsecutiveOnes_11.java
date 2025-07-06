@@ -1,3 +1,5 @@
+//FInd the maximum consecutive one's(1's) in the array
+
 public class FindMaxConsecutiveOnes_11 {
     public static void main(String[] args) {
         int nums[] = { 1, 1, 0, 1, 1, 1, 1 };
