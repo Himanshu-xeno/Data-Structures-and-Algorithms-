@@ -32,3 +32,6 @@ public class SecondLargestElement_2 {
         return secondMax;
     }
 }
+
+//Time Complexity: O(n) → Traverses the array once
+//Space Complexity: O(1) → Uses only fixed extra variables (max, secondMax)

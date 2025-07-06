@@ -15,3 +15,6 @@ public class LinearSearch_8 {
         return -1;
     }
 }
+
+//TC = O(N)
+//Sc = O(1)

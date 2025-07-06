@@ -36,3 +36,6 @@ public class optimalMovingZerotoEnd_7 {
         }
     }
 }
+
+//TC = O(N) -used 2 loops -> using these loops we traverse the Array once
+//SC = O(1) -No extra space used here

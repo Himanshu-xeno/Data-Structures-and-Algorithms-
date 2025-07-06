@@ -45,3 +45,10 @@ public class UnionTwoSortedArrays_HashMap_9 {
         return unionList;
     }
 }
+
+
+//TC = O(m+n) => average case
+//worst case = > TC = O((n+m)*log(n+m))
+
+//SC : O(m+n) => if union Arraylist is consider
+//SC : O(1) => if not considered

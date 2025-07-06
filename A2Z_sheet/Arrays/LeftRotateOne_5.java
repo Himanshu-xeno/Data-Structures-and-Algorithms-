@@ -39,4 +39,6 @@ public class LeftRotateOne_5 {
     }
 }
 
+//Time Complexity: O(n) => In-place reversal of parts of array
+//Space Complexity: O(1) => No extra space used
 

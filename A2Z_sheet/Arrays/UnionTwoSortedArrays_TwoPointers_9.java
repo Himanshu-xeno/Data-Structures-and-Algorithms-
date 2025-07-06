@@ -69,3 +69,9 @@ public class UnionTwoSortedArrays_TwoPointers_9 {
         return unionList;
     }
 }
+
+//TC = O(m+n)
+//This approach brings it from TC = O((n+m)*log(n+m)) to TC = O(n+m)
+
+//SC : O(m+n) => if union Arraylist is consider
+//SC : O(1) => if not considered

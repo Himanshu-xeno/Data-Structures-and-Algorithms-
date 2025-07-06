@@ -16,3 +16,6 @@ public class LargestElement_1 {
         return max;
     }
 }
+
+//Time Complexity: O(n) → One full pass through the array
+//Space Complexity: O(1) → Only one variable max used for tracking

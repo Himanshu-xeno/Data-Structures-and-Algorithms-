@@ -40,3 +40,6 @@ public class bruteMovingZerotoEnd_7 {
         return arr;
     }
 }
+
+//TC = O(N) + O(X) + O(N-X) = O(2*N)
+//SC = O(N) => using a temp array , max size of array can be N in worst case.

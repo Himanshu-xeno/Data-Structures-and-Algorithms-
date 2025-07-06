@@ -28,6 +28,7 @@ public class RemoveDuplicates_4 {
         return k;
     }
 
+
     // Optimal : Two pointers
     static int removeDuplicates2(int[] arr) {
         if (arr.length == 0) return 0; // Handle empty array case
@@ -42,3 +43,11 @@ public class RemoveDuplicates_4 {
         return i + 1; // The number of unique elements is i + 1 (since i is 0-indexed)
     }
 }
+
+//✅ Brute-force Approach (Using HashSet)
+// Time Complexity: O(n log n) (because HashSet iteration isn't ordered)
+//Space Complexity: O(n) => HashSet stores unique elements → extra space , Copy back to array
+
+//✅ Optimal Approach (Two Pointers)
+//Time Complexity: O(n) => Uses in-place swapping
+//Space Complexity: O(1) => No extra space

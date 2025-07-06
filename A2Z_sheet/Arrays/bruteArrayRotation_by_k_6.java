@@ -48,5 +48,8 @@ public class bruteArrayRotation_by_k_6  {
         for (int i = 0; i < k; i++)
             arr[i] = temp[i];
     }
-
 }
+
+//Time Complexity: O(n) => Each element is moved exactly once → linear time
+//Space Complexity: O(k) => Needs extra array of size k
+

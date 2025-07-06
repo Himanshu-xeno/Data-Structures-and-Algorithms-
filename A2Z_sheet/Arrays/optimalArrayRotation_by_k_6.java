@@ -49,3 +49,5 @@ public class optimalArrayRotation_by_k_6{
     }
 }
 
+//Time Complexity: O(n) => In-place reversal of parts of array
+//Space Complexity: O(1) => No extra space used
