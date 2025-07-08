@@ -26,8 +26,6 @@ public class GetNumberAppearOnce_12 {
             // If the element appears only once, return it
             if (count == 1) return num;
         }
-
-        // If the element appears only once, return it
         return -1;
     }
 
