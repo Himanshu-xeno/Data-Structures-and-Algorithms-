@@ -28,6 +28,9 @@ public class LongestSubArray_13 {
         return maxLen;
     }
 
+//TC : O(N^2) => outer loop runs 'n' times and for each i => inner loop runs (n-i) times
+//SC : O(1)
+    
     //optimal - using 2 pointers (Sliding Window)
     static int longestSubArraySumK_optimal(int[] arr, int k){
         int left = 0;
@@ -59,3 +62,6 @@ public class LongestSubArray_13 {
         return maxLen;
     }
 }
+
+//TC : O(2*N)  -> As, left and right moves from 1 to N-1 : O(N)+O(N)
+//SC : O(1)
