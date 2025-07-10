@@ -5,7 +5,7 @@
 
 import java.util.Arrays;
 
-public class countFrequencies_1 {
+public class countFrequencies_bruteforce_1 {
     public static void main(String[] args) {
         int arr[] = {5, 5, 5, 5};
 
