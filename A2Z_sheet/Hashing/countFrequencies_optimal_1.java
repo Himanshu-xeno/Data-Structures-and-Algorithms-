@@ -13,7 +13,7 @@ public class countFrequencies_optimal_1 {
         // Call the method to count frequencies
         List<List<Integer>> result = countFrequencies(arr);
 
-        // Print the result
+        // Printing the result
         System.out.println(result);
     }
 
