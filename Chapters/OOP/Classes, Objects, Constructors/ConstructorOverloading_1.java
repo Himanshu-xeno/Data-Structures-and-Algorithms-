@@ -1,4 +1,4 @@
-public class ConstructorOverloading {
+public class ConstructorOverloading_1 {
     public static void main(String[] args) {
         Student s1 = new Student(); // uses constructor 1
         Student s2 = new Student("Alice"); // uses constructor 2
