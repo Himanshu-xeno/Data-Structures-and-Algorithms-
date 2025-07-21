@@ -52,3 +52,9 @@ public class SumTriangleArray {
         return helper(temp, arr, index + 1);
     }
 }
+
+/*
+Method: Recursive Sum Triangle
+ * Time Complexity (TC): O(n^2)
+ * Space Complexity (SC): O(n)
+ */
