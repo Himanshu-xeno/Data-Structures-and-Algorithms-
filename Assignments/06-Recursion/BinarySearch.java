@@ -7,7 +7,7 @@ public class BinarySearch {
         System.out.println(ans);
     }
 
-    //Brute-force approach
+    //Brute-force approach  : tc = O(log n), sc = O(1)
     static int findTargert(int[] arr, int target){
         int start = 0;
         int end = arr.length-1;
@@ -26,8 +26,10 @@ public class BinarySearch {
         return -1;
     }
 
-    //Optimal way - recursion way
+    //Optimal way - recursion way  : tc = O(log n), sc = O(log n)
     static int findOptimalTarget(int[] arr, int target, int start, int end){
+
+        //Base condition : reached end of Array
         if(start > end){
             return -1;
         }
