@@ -5,7 +5,7 @@ public class BinarySearch {
         int ans = findTargert(arr,target);
         System.out.println(ans);
     }
-    
+
     //Brute-force approach
     static int findTargert(int[] arr, int target){
         int start = 0;
