@@ -3,7 +3,7 @@
 public class PowerOfTwo {
     public static void main(String[] args) {
         System.out.println(isPowerOfTwoIterative(16)); // true
-        System.out.println(isPowerOfTwoIterative(3));  // false
+        System.out.println(isPowerOfTwoRecursive(3));  // false
     }
 
     //brute-force : iterative approach  tc=O(log n), sc=O(1)
