@@ -1,0 +1,30 @@
+//Reverse the array of characters in-place (i.e., don’t use extra memory), and do it with O(1) extra space and O(n) time
+
+import java.util.Arrays;
+
+public class ReverseString {
+    public static void main(String[] args) {
+        char[] s = {'h', 'e', 'l', 'l', 'o'};
+        printReverse(s);
+        System.out.println(Arrays.toString(s));
+    }
+
+    //brute-force : Reverse the String
+    static void printReverse(char[] s){
+        int left = 0;
+        int right = s.length - 1;
+
+        while(left < right){
+            //Swap the characters at both pointers
+            char temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
+
+            //move the pointers inwards now
+            left ++;
+            right --;
+        }
+    }
+
+
+}
