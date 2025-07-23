@@ -10,7 +10,7 @@ public class ReverseString {
         System.out.println(Arrays.toString(s));
     }
 
-    //brute-force : Reverse the String
+    //brute-force : Reverse the String   tc=O(n), sc=O(1)
     static void printReverse(char[] s){
         int left = 0;
         int right = s.length - 1;
@@ -27,7 +27,7 @@ public class ReverseString {
         }
     }
 
-    //optimal approach : Recursive method
+    //optimal approach : Recursive method    tc=O(n), sc=O(n)
     static void recursiveReverse(char[] s,int left, int right ){
         //Base condition
         if (left >= right) return;

@@ -8,7 +8,7 @@ public class FibonacciSequence {
         System.out.println(fibo(n));
     }
 
-    //brute-force : using simple loop
+    //brute-force : using simple loop   tc=O(n), sc=O(1)
     static int fib(int n){
         if (n == 0) return 0;
         if (n == 1) return 1;
@@ -23,7 +23,7 @@ public class FibonacciSequence {
         return next;
     }
 
-    //Recursive approach - calculate nth Fibonacci number
+    //Recursive approach - calculate nth Fibonacci number  tc=O(2^n), sc=O(n)
     static int fibo(int n){
         if(n == 0) return 0;
         if(n == 1) return 1;
