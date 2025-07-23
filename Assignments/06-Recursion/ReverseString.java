@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class ReverseString {
     public static void main(String[] args) {
         char[] s = {'h', 'e', 'l', 'l', 'o'};
-        printReverse(s);
+//        printReverse(s);
+        recursiveReverse(s,0,s.length - 1);
         System.out.println(Arrays.toString(s));
     }
 
@@ -26,5 +27,17 @@ public class ReverseString {
         }
     }
 
+    //optimal approach : Recursive method
+    static void recursiveReverse(char[] s,int left, int right ){
+        //Base condition
+        if (left >= right) return;
 
+        // Swap
+        char temp = s[left];
+        s[left] = s[right];
+        s[right] = temp;
+
+        //Recursive call with narrowed pointers
+        recursiveReverse(s, left+1, right-1);
+    }
 }
