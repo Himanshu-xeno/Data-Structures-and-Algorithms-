@@ -5,6 +5,7 @@ public class FibonacciSequence {
     public static void main(String[] args) {
         int n = 7;
         System.out.println(fib(n));
+        System.out.println(fibo(n));
     }
 
     //brute-force : using simple loop
@@ -22,5 +23,11 @@ public class FibonacciSequence {
         return next;
     }
 
+    //Recursive approach - calculate nth Fibonacci number
+    static int fibo(int n){
+        if(n == 0) return 0;
+        if(n == 1) return 1;
 
+        return fibo(n-1) + fibo(n-2);
+    }
 }
