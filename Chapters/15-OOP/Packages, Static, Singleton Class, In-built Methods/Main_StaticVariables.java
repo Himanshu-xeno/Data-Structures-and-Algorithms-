@@ -14,6 +14,6 @@ public class Main_StaticVariables {
         System.out.println(person6.name);
         System.out.println(person1.age);
 
-        System.out.println(Human_StaticVariables.population);  //static variable 
+        System.out.println(Human_StaticVariables.population);  //static variable
     }
 }
