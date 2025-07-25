@@ -6,6 +6,7 @@
 public class StepsReduceToZero {
     public static void main(String[] args) {
         System.out.println(numberOfSteps(14));
+        System.out.println(numberOfStepsRecursive(123));
     }
 
     static int numberOfSteps(int n){
@@ -22,5 +23,20 @@ public class StepsReduceToZero {
             steps ++;       //increase it per step
         }
         return steps;
+    }
+
+    //Recursive method : optimal approach
+    static int numberOfStepsRecursive(int n) {
+        //Base condition
+        if (n == 0) {
+            return 0;
+        }
+
+        //Here we have added the 1 in return showing the steps
+        if (n % 2 == 0) {
+            return 1 + numberOfSteps(n / 2); //even
+        } else {
+            return 1 + numberOfSteps(n - 1); //odd
+        }
     }
 }
