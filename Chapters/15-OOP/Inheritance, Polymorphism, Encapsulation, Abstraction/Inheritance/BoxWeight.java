@@ -21,4 +21,4 @@ public class BoxWeight extends Box{
 //everything inherit from this Object class in java
 
 //super is used to access explicitly something from super class(Parent class)
-//even if the names of them are same 
+//even if the names of them are same
