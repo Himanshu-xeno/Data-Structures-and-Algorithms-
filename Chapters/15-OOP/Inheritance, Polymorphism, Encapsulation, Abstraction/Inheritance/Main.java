@@ -15,7 +15,7 @@ public class Main {
 
         Box box5 = new BoxWeight(2,3,4,8);
         System.out.println(box5.w);
-
+        //Object is of BoxWeight class but referencing to parent class Box
         //There are many variables in both parent and child classes
         //You are given access to variables that are in the ref. type i.e. BoxWeight
         //hence, you should have access to weight variable
@@ -24,6 +24,7 @@ public class Main {
 
 //        BoxWeight box6 = new box(2,3,4);
 //        System.out.println(box6);
+        //Object is of parent class Box but referencing to child class BoxWeight
        //You can't have a child refernce variable and Parent object
     }
 }
