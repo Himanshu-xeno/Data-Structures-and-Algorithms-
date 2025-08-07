@@ -1,4 +1,4 @@
-/*
+/* Richest Customer Wealth
 🧪 Example:
 Input:
   accounts = [
