@@ -3,7 +3,7 @@
 public class ReverseString_3 {
     public static void main(String[] args) {
         String str = "Himanshu Tiwari";
-        String rev = reverse(str); 
+        String rev = reverse(str);
 
         System.out.println("Original: " + str);
         System.out.println("Reversed: " + rev);
