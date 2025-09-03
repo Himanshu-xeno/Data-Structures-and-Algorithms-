@@ -1,13 +1,17 @@
-//2. Implement Lower Bound
+//4. Given a sorted array of distinct integers and a target value,
+// return the index if the target is found.
+// If not, return the index where it would be if it were inserted in order.
 
-public class LowerBound_2 {
+public class SearchInsertPosition_04 {
     public static void main(String[] args) {
         int[] arr = {2,3,4,64,555};
-        int n = 7; int x = 65;
+        int n = 7; int x = 3;
         System.out.println(findBoundBrute(arr,n,x));
         int result = findBoundOptimal(arr,n,x);
         System.out.println(result);
     }
+
+    //This problem is a classic application of Lower bound algo
 
     static int findBoundBrute(int[] arr, int n, int x){
         for (int i = 0; i < n; i++) {
