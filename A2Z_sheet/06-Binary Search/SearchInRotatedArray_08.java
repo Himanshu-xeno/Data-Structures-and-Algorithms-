@@ -1,4 +1,5 @@
-//08. Search in rotated array
+//08. Search in rotated array - 1
+//Without any duplications of elements
 
 public class SearchInRotatedArray_08 {
     public static void main(String[] args) {
@@ -29,7 +30,7 @@ public class SearchInRotatedArray_08 {
 
             //Right side is sorted
             else{
-                if(nums[mid] < target && target<= nums[mid]){
+                if(nums[mid] < target && target<= nums[end]){
                     start = mid + 1; //right search
                 }else{
                     end = mid - 1;
