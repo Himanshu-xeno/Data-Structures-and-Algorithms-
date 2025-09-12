@@ -3,7 +3,7 @@
 
 import java.util.Arrays;
 
-public class First_Last_position {
+public class First_Last_position_10 {
     public static void main(String[] args) {
         int[] nums = {5,7,7,7,7,7,8,8,9,10};
         int target = 7;
