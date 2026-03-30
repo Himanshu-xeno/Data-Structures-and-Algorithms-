@@ -1,6 +1,6 @@
 //This code is about the Inroduction of Linked List
 //It tells us how they are formed using classes and objects and accessed using constructors
-//We have considered arrays to simulate input data
+//We have considered arrays dto simulate input data
 
 
 class Node{
